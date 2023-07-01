@@ -1,3 +1,5 @@
+./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RB61ra4jCn5WepDbprJPAq5eeg8zYvFmZH.a31 -p x -t 40
+
 pwd
 
 cd ..
