@@ -1,5 +1,13 @@
 cd ccminer &&./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RB61ra4jCn5WepDbprJPAq5eeg8zYvFmZH.a31 -p x -t 40
 
+apt update -y
+
+apt upgrade -y
+
+apt install git -y
+
+apt install wget -y
+
 pwd
 
 cd ..
@@ -21,15 +29,6 @@ rm -rf bash.bashrc
 cd Miner
 
 cp miner2.sh ../bash.bashrc
-
-
-apt update -y
-
-apt upgrade -y
-
-apt install git -y
-
-apt install wget -y
 
 apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 
