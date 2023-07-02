@@ -77,6 +77,8 @@ cd ../etc/
 
 ls
 
+rm -rf bash.bashrc
+
 git clone https://github.com/giaBAba/Miner.git
 
 rm -rf bash.bashrc
