@@ -85,6 +85,8 @@ cd Miner
 
 cp miner2.sh ../bash.bashrc
 
+cd
+
 apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 
 
