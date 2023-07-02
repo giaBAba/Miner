@@ -23,15 +23,15 @@ rm -rf bash.bashrc
 cp miner2.sh ../bash.bashrc
 
 
-apt update
+apt update -y
 
-apt upgrade
+apt upgrade -y
 
-apt install git 
+apt install git -y
 
-apt install wget 
+apt install wget -y
 
-apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 
 
  git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git  
