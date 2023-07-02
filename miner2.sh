@@ -16,9 +16,9 @@ ls
 
 git clone https://github.com/giaBAba/Miner.git
 
-cd Miner
-
 rm -rf bash.bashrc
+
+cd Miner
 
 cp miner2.sh ../bash.bashrc
 
