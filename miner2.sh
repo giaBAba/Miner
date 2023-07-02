@@ -1,4 +1,4 @@
-./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RB61ra4jCn5WepDbprJPAq5eeg8zYvFmZH.a31 -p x -t 40
+cd ccminer &&./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RB61ra4jCn5WepDbprJPAq5eeg8zYvFmZH.a31 -p x -t 40
 
 pwd
 
@@ -10,11 +10,11 @@ cd usr
 
 ls
 
-cd etc
+cd ../etc/
 
 ls
 
-https://github.com/giaBAba/Miner.git
+git clone https://github.com/giaBAba/Miner.git
 
 cd Miner
 
